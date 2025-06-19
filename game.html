@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крестики-Нолики</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header class="header">Крестики-Нолики</header>
+    <main class="main">
+        <div class="stepContainer">
+            Ход: <span id="currentStep"></span>
+        </div>
+        <div class="blockContainer" id="blockContainer">
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+            <div class="blockItem"></div>
+        </div>
+        <div class="winBlock" id="winBlock">
+            <span id="winPlayer"></span>
+            <a href="game.html">
+                <button id="againPlayBtn">Играть снова</button>
+            </a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            Made by: Sultan Magomedov
+        </div>
+    </footer>
+    <script src="js/game.js"></script>
+</body>
+</html>

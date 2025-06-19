@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2e8cf;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #6a994e;
+    height: 100px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.stepContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.blockContainer {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #a7c957;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.blockItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    width: 30%;
+    height: 30%;
+    background-color: #f2e8cf;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.blockItem:hover {
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.winBlock {
+    width: 30%;
+    height: 200px;
+    background-color: #6a994e;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: -500px;
+    z-index: -1;
+    visibility: hidden;
+    pointer-events: none;
+    
+}
+
+
+.visible {
+    z-index: 1;
+    visibility: visible;
+    pointer-events: all;
+}
+
+.winBlock a {
+    width: 60%;
+    margin-left: 22%;
+    height: 100px;
+}
+
+.winBlock a button {
+    margin-top: 20px;
+    background-color: #a7c957;
+    border-radius: 5px;
+    border: none;
+    width: 60%;
+    height: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.x {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.circle {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noClick {
+    pointer-events: none;
+}
+
+.x {
+    color: red;
+    font-size: 100px;
+}
+
+.o {
+    color: blue;
+    font-size: 100px;
+}
