@@ -75,7 +75,6 @@ body {
     z-index: -1;
     visibility: hidden;
     pointer-events: none;
-    
 }
 
 
@@ -138,3 +137,41 @@ body {
     color: blue;
     font-size: 100px;
 }
+
+@media (max-width: 550px) {
+    .winBlock {
+        font-size: 17px;
+        height: 100px;
+    }
+
+    .winBlock a {
+        width: 80%;
+        margin-left: 30%;
+    }
+}
+
+@media (max-width: 510px) {
+    .blockContainer {
+        width: 300px;
+        height: 300px;
+    }
+    .winBlock {
+        margin-top: -300px;
+        font-size: 15px;
+    }
+
+    .header {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 393px) {
+    .winBlock {
+        margin-top: -300px;
+        font-size: 12px;
+    }
+
+    .winBlock a button {
+        font-size: 12px;
+    }
+} 
