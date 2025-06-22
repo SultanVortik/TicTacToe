@@ -51,3 +51,14 @@ body {
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+@media (max-width: 500px) {
+    .header {
+        font-size: 30px;
+    }
+
+    .buttons {
+        font-size: 25px;
+        width: 40%;
+    }
+}
